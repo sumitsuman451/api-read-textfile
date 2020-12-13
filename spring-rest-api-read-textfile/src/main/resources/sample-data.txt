@@ -1,0 +1,3 @@
+Name|Email|Mobile|Gender|Address|City
+Rahul|rahul@xyz.com|999999999|Male|Delhi|Delhi
+Priya|priya@xyz.com|000000000|Female|Charminar|Hyderabad
