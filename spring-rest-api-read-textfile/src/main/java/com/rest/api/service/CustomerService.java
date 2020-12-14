@@ -21,8 +21,8 @@ public class CustomerService {
 	String path="src/main/resources/sample-data.txt";
 	String line="";
 	
-	@Scheduled(cron= " 0/15 * * * * * " )  //cron(sec, min, hour, day(month), month, day(week) )
-//	@Scheduled(cron=" 0 0 1 * * ? ")
+//	@Scheduled(cron= " 0/15 * * * * * " )  //cron(sec, min, hour, day(month), month, day(week) )
+	@Scheduled(cron=" 0 0 1 * * ? ")  //executes daily at 1AM
 	public void getCustomerData() {
 		try {
 			BufferedReader br=new BufferedReader(new FileReader(path));
